@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* Logo */
+.skin-blue .main-header .logo {
+  background-color: #85C1E9;
+  font-family: "Baskerville", serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Logo when hovered */
+.skin-blue .main-header .logo:hover {
+  background-color: #85C1E9;
+  font-family: "Baskerville", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* Navbar (rest of the header) */
+.skin-blue .main-header .navbar {
+  background-color: #85C1E9;
+}
+
+/* Main sidebar */
+.skin-blue .main-sidebar {
+  background-color: #303030;
+}
+
+/* Active selected tab in the sidebarmenu */
+.skin-blue .main-sidebar .sidebar .sidebar-menu .active a {
+  background-color: #85C1E9;
+}
+
+/* Other links in the sidebarmenu */
+.skin-blue .main-sidebar .sidebar .sidebar-menu a {
+  background-color: #303030;
+  color: #EDE7F6;
+}
+
+/* Other links in the sidebarmenu when hovered */
+.skin-blue .main-sidebar .sidebar .sidebar-menu a:hover {
+  background-color: #303030;
+}
+
+/* Toggle button when hovered */
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+  background-color: #303030;
+}
+
+/* Body */
+.content-wrapper,
+.right-side {
+  background-color: #EBF5FB;
+  font-family: "Baskerville", serif;
+  font-size: 18px;
+}
+
+/* Titles H2 */
+h2 {
+  font-family: "Baskerville", serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Titles H3 */
+h3 {
+  font-family: "Baskerville", serif;
+  font-size: 22px;
+  font-weight: bold;
+}
